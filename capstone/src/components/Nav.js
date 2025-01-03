@@ -1,6 +1,6 @@
 import React from "react";
 
-function Nav (){
+export function Nav (){
     return(
         <ul>
             <li><a href ="Home">Home</a></li>
@@ -13,4 +13,22 @@ function Nav (){
     )
 }
 
-export default Nav;
+export function NavForFooter () {
+    return (
+        <>
+            <ul>
+                <li>Contact information</li>
+                <li><a href="Adress">Adress</a></li>
+                <li><a href="Contact number">Contact number</a></li>
+                <li><a href="Email">Email</a></li>
+            </ul>
+            <ul>
+                <li>Social media</li>
+                <li><a href="link">Link</a></li>
+                <li><a href="link">Link</a></li>
+                <li><a href="link">Link</a></li>
+            </ul>
+        </>
+    );
+}
+

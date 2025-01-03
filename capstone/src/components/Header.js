@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from '../assets/Logo.svg'
-import Nav from "./Nav.js";
+import { Nav }  from "./Nav.js";
 function Header(){
     return(
         <header>
