@@ -8,7 +8,6 @@ function Footer (){
     return(
         <footer>
             <img src={Logo} alt="Logo" />
-            <Nav />
             <NavForFooter />
         </footer>
     )

@@ -3,7 +3,7 @@ import Logo from '../assets/Logo.svg'
 import { Nav }  from "./Nav.js";
 function Header(){
     return(
-        <header>
+        <header className = "header">
             <img src={Logo} alt="Logo" />
             <Nav />
         </header>
