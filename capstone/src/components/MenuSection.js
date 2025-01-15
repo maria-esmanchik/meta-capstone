@@ -1,5 +1,6 @@
 import React from 'react';
-//import './MenuSection.css';
+import GreekSalad from '../assets/greek salad.jpg';
+import '../style/MenuSection.css';
 
 const MenuSection = () => {
   return (
@@ -7,6 +8,7 @@ const MenuSection = () => {
       <h2>This Week's Specials!</h2>
       <div className="menu-items">
         <div className="menu-item">
+          <img src={GreekSalad} alt='GreekSalad' className='menu-card'/>
           <h3>Greek Salad</h3>
           <p>$12.99</p>
           <button>Order Delivery</button>

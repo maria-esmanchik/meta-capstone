@@ -1,8 +1,6 @@
 import React from "react";
 import Logo from '../assets/favilogo.png';
-// import { Nav, NavForFooter } from './Nav.js';
-
-
+import '../style/Footer.css';
 
 function Footer (){
     return(
