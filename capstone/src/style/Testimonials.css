@@ -1,4 +1,4 @@
-.menu-section {
+.testimonials-section {
     display: flex;
     flex-flow: wrap;
     flex-direction: column;
@@ -7,7 +7,7 @@
     margin: 0 auto;
     padding: 0 20px;
 }
-.menu-items{
+.testimonial-items{
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -15,17 +15,17 @@
     padding: 0 10px;
 }
 
-.menu-item {
+.testimonial-item {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.menu-item h3 {
+.testimonial-item h3 {
     margin-bottom: 10px;
     font-size: 1.2em;
   }
 
-.menu-card {
+.comments-card {
     max-width: 150px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
-import Logo from '../assets/Logo.svg'
+import Logo from '../assets/Logo.svg';
 import { Nav }  from "./Nav.js";
+import '../style/Header.css';
 function Header(){
     return(
         <header className = "header">
