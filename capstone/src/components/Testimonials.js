@@ -14,26 +14,31 @@ const Testimonials = () => {
         <div className="testimonial-item">
           <img src={AvatarA} alt='AvatarA' className='comments-card'/>
           <p>⭐⭐⭐⭐⭐</p>
+          <h4>Alex</h4>
           <p>"The best Greek salad I've ever had!"</p>
         </div>
         <div className="testimonial-item">
           <img src={AvatarC} alt='AvatatrC' className='comments-card'/>
           <p>⭐⭐⭐⭐⭐</p>
+          <h4>Gloria</h4>
           <p>"Amazing desserts, highly recommend!"</p>
         </div>
         <div className="testimonial-item">
           <img src={AvatarE} alt='AvatarE' className='comments-card'/>
           <p>⭐⭐⭐⭐⭐</p>
+          <h4>Frank</h4>
           <p>"The best Greek salad I've ever had!"</p>
         </div>
         <div className="testimonial-item">
           <img src={AvatarF} alt='AvatarF' className='comments-card'/>
           <p>⭐⭐⭐⭐⭐</p>
+          <h4>Olivia</h4>
           <p>"Amazing desserts, highly recommend!"</p>
         </div>
         <div className="testimonial-item">
           <img src={AvatarK} alt='AvatarK' className='comments-card'/>
           <p>⭐⭐⭐⭐⭐</p>
+          <h4>Greg</h4>
           <p>"Amazing desserts, highly recommend!"</p>
         </div>
       </div>

@@ -5,9 +5,17 @@ import '../style/HeroSection.css';
 const HeroSection = () => {
   return (
     <section className="hero-section">
-      <h2>Welcome to Little Lemon</h2>
-      <p>Chicago's best Mediterranean cuisine!</p>
-      <button>Reserve a Table</button>
+      <article>
+        <h2>Little Lemon</h2>
+        <h3>Chicago</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Aliquam imperdiet mi lobortis, posuere lacus ac, viverra nulla.
+          Aliquam eget arcu eget augue semper ullamcorper.
+          Phasellus eget pellentesque lorem, a ornare velit.
+          Ut ante orci, condimentum non vehicula sit amet, aliquet at
+          mauris.</p>
+        <button className='reserveTabele-btn'>Reserve a Table</button>
+      </article>
       <img src={HeroImage} alt='HeroImage' className='hero-image'/>
     </section>
   );
