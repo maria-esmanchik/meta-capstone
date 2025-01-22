@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from '../assets/restauranfood.jpg'
+import HeroImage from '../assets/restauranfood1.jpg'
 import '../style/HeroSection.css';
 
 const HeroSection = () => {
@@ -11,12 +11,12 @@ const HeroSection = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Aliquam imperdiet mi lobortis, posuere lacus ac, viverra nulla.
           Aliquam eget arcu eget augue semper ullamcorper.
-          Phasellus eget pellentesque lorem, a ornare velit.
-          Ut ante orci, condimentum non vehicula sit amet, aliquet at
-          mauris.</p>
+          Phasellus eget pellentesque lorem, a ornare velit. Aliquam imperdiet 
+          mi lobortis, posuere lacus ac, viverra nulla.
+        </p>
         <button className='reserveTabele-btn'>Reserve a Table</button>
       </article>
-      <img src={HeroImage} alt='HeroImage' className='hero-image'/>
+      <img src={HeroImage} alt='HeroImage' className='article-image'/>
     </section>
   );
 };

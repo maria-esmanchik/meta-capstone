@@ -1,0 +1,19 @@
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    max-height: 320px;
+}
+
+.about-section article {
+    flex: 1; 
+    max-width: 300px;
+    text-align: justify;
+    margin: 2% 5% 0% 25%;
+}
+
+/* .about-section h2 {
+    color: yellow;
+} */
