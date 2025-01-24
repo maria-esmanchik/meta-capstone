@@ -4,16 +4,14 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #fefefc;
-    padding: 30px 10px;
+    padding: 20px 10px;
+    margin-right: 50px;
   }
   
   .logo-img {
-    width: 120px;
+    width: 250px;
     height: auto;
-  }
-  
-  .navbar {
-    font-family: 'Arial', sans-serif;
+    margin-left: 50px;
   }
   
   .nav-links {
@@ -28,14 +26,14 @@ header {
     display: inline;
   }
   
-  
   .nav-item a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     transition: color 0.3s ease;
   }
   
   .nav-item a:hover {
-    color: hsl(80, 46%, 35%); /* A olive color when hovering */
+    color: #495E57; /* A olive color when hovering */
   }

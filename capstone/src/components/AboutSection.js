@@ -17,10 +17,12 @@ const AboutSection = () => {
             mi lobortis, posuere lacus ac, viverra nulla.
         </p>
       </article>
-      <img src={MarioAdrianA} alt='MarioAdrianA' className='menu-card'/>
-      <img src={MarioAdrianB} alt='MarioAdrianB' className='menu-card'/>
-      <img src={RestaurantChef} alt='RestaurantChef' className='menu-card'/>
-      <img src={Restaurant} alt='Restaurant' className='menu-card'/>
+      <div className='about-cards'>
+        <img src={MarioAdrianA} alt='MarioAdrianA' className='about-card'/>
+        <img src={MarioAdrianB} alt='MarioAdrianB' className='about-card'/>
+        <img src={RestaurantChef} alt='RestaurantChef' className='about-card'/>
+        <img src={Restaurant} alt='Restaurant' className='about-card'/>
+      </div>
     </section>
   );
 };

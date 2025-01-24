@@ -11,8 +11,6 @@ const HeroSection = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Aliquam imperdiet mi lobortis, posuere lacus ac, viverra nulla.
           Aliquam eget arcu eget augue semper ullamcorper.
-          Phasellus eget pellentesque lorem, a ornare velit. Aliquam imperdiet 
-          mi lobortis, posuere lacus ac, viverra nulla.
         </p>
         <button className='reserveTabele-btn'>Reserve a Table</button>
       </article>

@@ -1,6 +1,6 @@
 .footer {
-    background-color: #33333373;
-    color: #fff;
+    background-color: #EDEFEE;
+    color: #333333;
     padding: 30px 10px;
     text-align: center;
   }
@@ -12,6 +12,8 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
   
   .footer-logo .logo {
@@ -47,7 +49,7 @@
   }
   
   .footer-column ul li a {
-    color: #fff;
+    color: #333333;
     text-decoration: none;
     transition: color 0.3s;
   }

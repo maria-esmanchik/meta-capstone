@@ -4,16 +4,35 @@
     justify-content: center;
     flex-direction: column;
     padding: 20px;
-    max-height: 320px;
+    max-height: 400px;
 }
 
 .about-section article {
     flex: 1; 
     max-width: 300px;
     text-align: justify;
-    margin: 2% 5% 0% 25%;
+    margin: 25% 2% 25% 25%;
+    color: #333333;
 }
 
-/* .about-section h2 {
-    color: yellow;
-} */
+.about-section h2 {
+    /* margin-top: 10px; */
+    margin-bottom: 30px;
+    color: #495e57;
+}
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 320px;
+    max-height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+
+}
+
+.about-card {
+    max-width: 160px;
+}

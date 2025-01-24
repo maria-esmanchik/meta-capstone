@@ -12,53 +12,15 @@ code {
     monospace;
 } */
 
-/* General reset for margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Karla Regular', sans-serif;
 }
 
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fefefc;
-  padding: 20px 30px;
+* h2 {
+  font-family: 'Markazi Text', serif;
+  font-size: 40pt;
 }
 
-.logo-img {
-  width: 120px;
-  height: auto;
-}
-
-.navbar {
-  font-family: 'Arial', sans-serif;
-}
-
-.nav-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.nav-item {
-  margin-right: 20px;
-  display: inline;
-}
-
-
-.nav-item a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-.nav-item a:hover {
-  color: hsl(80, 46%, 35%); /* A olive color when hovering */
-}
-
-/* Footer Styles */

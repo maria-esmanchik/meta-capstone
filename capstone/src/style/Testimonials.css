@@ -3,34 +3,36 @@
     flex-flow: wrap;
     flex-direction: column;
     align-items: center;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: #ededed;
+}
+
+.testimonials-section h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #495E57;
 }
 .testimonial-items{
-    /* display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex: 1;
-    padding: 0 10px; */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     padding: 20px;
     max-width: 1200px;
-    margin: auto;
+    margin-bottom: 30px;
 }
 
 .testimonial-item {
     border: 1px solid #ddd;
     border-radius: 8px;
-    width: 100px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 110px;
+    box-shadow: 0 4px 4px #ddd;
     overflow: hidden;
     text-align: center;
     transition: transform 0.3s ease;
     padding-bottom: 10px;
+    background-color: #ffffff;
 }
 
 .testimonial-item h4 {
@@ -45,6 +47,6 @@
 }
 
 .comments-card {
-    width: 100px;
+    width: 110px;
     max-height: 100px;
 }
