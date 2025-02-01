@@ -8,9 +8,8 @@ const HeroSection = () => {
       <article>
         <h2>Little Lemon</h2>
         <h3>Chicago</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Aliquam imperdiet mi lobortis, posuere lacus ac, viverra nulla.
-          Aliquam eget arcu eget augue semper ullamcorper.
+        <p>We are a family owned Mediterranean restaurant, 
+          focused on traditional recipes served with a modern twist.
         </p>
         <button className='reserveTabele-btn'>Reserve a Table</button>
       </article>
