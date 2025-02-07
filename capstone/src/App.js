@@ -24,7 +24,8 @@ function App() {
       <Footer/>
       <Routes>
         <Route path="/" element={<Nav />}></Route>
-        <Route path="/Reservations" element={<Nav />}></Route>
+        <Route path="/Reservation" element={<Nav />}></Route>
+        {/* <Route path="/About" element={<AboutSection />}></Route> */}
       </Routes>
     </Router>
   );
