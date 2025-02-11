@@ -4,7 +4,7 @@ import '../style/HeroSection.css';
 
 const HeroSection = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section reservation-section">
       <article>
         <h2>Little Lemon</h2>
         <h3>Chicago</h3>
