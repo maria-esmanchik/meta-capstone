@@ -20,12 +20,12 @@ export function Nav (){
     return(
         <nav className="navbat">
             <ul className="nav-link">
-                <li className="nav-item"><a href ="/">Home</a></li>
+                <li className="nav-item"><Link to ="#">Home</Link></li>
                 <li className="nav-item"><Link to ="#about">About</Link></li>
-                <li className="nav-item"><a href ="/Menu">Menu</a></li>
-                <li className="nav-item"><a href ="#reservation">Reservation</a></li>
-                <li className="nav-item"><a href ="/Order Online">Order Online</a></li>
-                <li className="nav-item"><a href ="/Login">Login</a></li>
+                <li className="nav-item"><Link to ="#menu">Menu</Link></li>
+                <li className="nav-item"><Link to ="#reservation">Reservation</Link></li>
+                <li className="nav-item"><Link to ="#menu">Order Online</Link></li>
+                <li className="nav-item"><Link to ="#login">Login</Link></li>
             </ul>
         </nav>
     )
