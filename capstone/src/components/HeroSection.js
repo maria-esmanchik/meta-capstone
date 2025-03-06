@@ -1,11 +1,9 @@
 import React from 'react';
-import HeroImage from '../assets/restauranfood1.jpg'
+import HeroImage from '../assets/restauranfood1.jpg';
 import '../style/HeroSection.css';
+import { Link, NavLink, useLocation } from "react-router-dom";
 
-const HeroSection = () => {
-  function handleClick() {
-    alert('You clicked me!');
-  }
+const HeroSection = ({onReserve}) => {
   return (
     <section className="hero-section reservation-section">
       <article>
@@ -14,7 +12,9 @@ const HeroSection = () => {
         <p>We are a family owned Mediterranean restaurant,
           focused on traditional recipes served with a modern twist.
         </p>
-        <button className='reserveTabele-btn' onClick={handleClick}>Reserve a Table</button>
+        <NavLink to="/reservation">
+        <button className='reserveTabele-btn' onClick={onReserve}>Reserve a Table</button>
+        </NavLink>
       </article>
       <img src={HeroImage} alt='HeroImage' className='article-image'/>
     </section>
