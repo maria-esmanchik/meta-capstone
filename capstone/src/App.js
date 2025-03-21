@@ -9,7 +9,7 @@ import MenuSection from './components/MenuSection.js';
 import Testimonials from './components/Testimonials.js';
 import AboutSection from './components/AboutSection.js';
 import Content from './components/Content.js';
-import ConfirmedBooking from './components/ConfirmedBooking.js';
+
 
 function App() {
   // const [number, setNumber] = React.useState(1);

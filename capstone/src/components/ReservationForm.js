@@ -189,8 +189,20 @@ const ReservationForm = ({ availableTimes, updateTimes, submitForm }) => {
   const [preferences, setPreferences] = useState('');
   const [comments, setComments] = useState('');
 
+  const isValidDate = (date) => {
+    const today = new Date();
+    const selectedDate = new Date(date);
+    today.setHours(0, 0, 0, 0); // Set today's time to midnight
+    return selectedDate >= today; // Ensure the selected date is today or in the future
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!isValidDate(date)) {
+      alert('Please select a valid date. The date cannot be in the past.');
+      return;
+    }
     const formData = {
       fName,
       lName,
@@ -204,7 +216,6 @@ const ReservationForm = ({ availableTimes, updateTimes, submitForm }) => {
       comments,
     };
     submitForm(formData);
-    // todo handel reservation
   };
 
   return (
@@ -244,6 +255,7 @@ const ReservationForm = ({ availableTimes, updateTimes, submitForm }) => {
         <input
           type="tel"
           id="tel"
+          pattern="[0-9]{10}"
           value={tel}
           onChange={(e) => setTel(e.target.value)}
           required
