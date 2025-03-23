@@ -44,6 +44,11 @@
     font-size: medium;
 }
 
+.reserveTabele-btn:hover {
+    background-color: #FBDABB;
+    color: #333;
+}
+
 .article-image {
     width: 250px;
     height: auto;

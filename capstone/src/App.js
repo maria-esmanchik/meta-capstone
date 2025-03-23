@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { useState } from 'react';
 import './style/App.css';
 import Header from './components/Header.js';
@@ -33,12 +33,6 @@ function App() {
       <Testimonials />
       <AboutSection />
       <Footer/>
-      <Routes>
-        {/* <Route path="/" element={<Nav />}></Route>
-        <Route path="/reservation" element={<Nav />}></Route>
-        <Route path="/About" element={<AboutSection />}></Route> */}
-        {/* <Route path="/confirmation" element={<ConfirmedBooking />} /> */}
-      </Routes>
     </Router>
   );
 };

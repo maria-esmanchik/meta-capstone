@@ -1,0 +1,85 @@
+/* General form styling */
+.reservation-form {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Karla', serif;
+  }
+
+  /* Form field labels */
+  .reservation-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  /* Input fields */
+  .reservation-form input,
+  .reservation-form select,
+  .reservation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  /* Input focus styles */
+  .reservation-form input:focus,
+  .reservation-form select:focus,
+  .reservation-form textarea:focus {
+    border-color: #FBDABB;
+    outline: none;
+    box-shadow: 0 0 4px #FBDABB;
+  }
+
+  /* Textarea styling */
+  .reservation-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  /* Submit button */
+  .reservation-form button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #F4CE14;
+    color: #333;
+    border: none;
+    border-radius: 16px;
+    font-family: 'Karla', serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Submit button hover effect */
+  .reservation-form button:hover {
+    background-color: #FBDABB;
+    color: #333;
+  }
+
+  /* Small note styling */
+  .reservation-form small {
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 16px;
+    color: #666;
+    font-size: 12px;
+  }
+
+  /* Error message styling (if needed) */
+  .reservation-form .error {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+  }
