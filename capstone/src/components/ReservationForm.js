@@ -331,7 +331,7 @@ const ReservationForm = ({ availableTimes, updateTimes, submitForm }) => {
           onChange={(e) => setComments(e.target.value)}
         ></textarea>
       </div>
-      <button type="submit">Book Table</button>
+      <button type="submit" aria-label='On Click'>Book Table</button>
     </form>
   );
 };
